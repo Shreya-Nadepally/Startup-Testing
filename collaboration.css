@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  h1 {
+    font-weight: 600;
+    color: wheat;
+  }
+  h2,h3{
+    font-weight: 600;
+    color: #1e2a47;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  header {
+    background-color: #1e2a47;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  #process {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  #process h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .process-steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .step {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 22%;
+  }
+  
+  .step h3 {
+    color: #1e2a47;
+  }
+  
+  #cta {
+    background-color: #1e2a47;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .cta-button {
+    background-color: #ffbb33;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff9e00;
+  }
+  
+  #testimonials {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  #testimonials .testimonials p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  #faq {
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+  }
+  
+  #faq ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #faq ul li {
+    margin-bottom: 1rem;
+  }
+  
+  #faq strong {
+    color: #1e2a47;
+  }
+
+  footer {
+    background-color: #1e2a47;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,154 @@
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 30px;
+    left: 600px;
+    top: 50px;
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+    animation-name: box1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.main{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    background-color: whitesmoke;
+}
+.main .one{
+   width: 200px; 
+}
+.main .two{
+    width: 400px;  
+}
+.main .three{
+    width: 200px; 
+}
+.one h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.one p{
+  font-size: 25px;
+  font-weight: 700; 
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+.one button{
+    font-size: 30px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.two h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 140px;
+    top: 20px;
+}
+.two p{
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+    left: 140px; 
+    top: 20px; 
+}
+.two button{
+    font-size: 30px;
+    width: 400px;
+    height: 40px;
+    position: relative;
+    left: 140px;
+    top: 20px;
+}
+.three h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 240px;
+    top: 20px;
+}
+.three p{
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+    left: 240px;
+    top: 20px;  
+}
+.three button{
+    font-size: 30px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    left: 240px;
+    top: 20px;
+}
+.one img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+.two img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 190px; 
+    top: 20px;
+}
+.three img{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 240px;
+    top: 20px;
+}
+@keyframes box1 {
+    0%{
+        border-top: 4px solid black;
+        border-right: transparent;
+        border-bottom: transparent;
+        border-left: transparent;
+    }
+    25% {
+        border-right: 4px solid black;
+        border-bottom: transparent;
+        border-left: transparent;
+        border-top: 4px solid black ;
+        
+    }
+    50%{
+        border-right: 4px solid black;
+        border-bottom: 4px solid black;
+        border-left: transparent;
+        border-top:4px solid black;
+       
+    }
+    75%{
+        border-right: 4px solid black;
+        border-bottom: 4px solid black;
+        border-left: 4px solid black;
+        border-top: 4px solid black;
+    }   
+}

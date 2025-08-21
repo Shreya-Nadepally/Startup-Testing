@@ -1,0 +1,97 @@
+body{
+    height:  1000px;
+ }
+ .box2{
+     height: 1000px;
+ }
+ 
+ h1{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top:20px;
+ }
+ h2{
+     display: flex;
+     justify-content: center;
+     position: relative;
+     top:40px;
+     font-size: 30px;
+ }
+ .box2 .one{
+    width: 400px;
+    height: 500px;
+    
+ }
+ img{
+     width: 100px;
+     height: 100px;
+     position: relative;
+     top: 20px;
+     left:90px;
+ }
+ h3{
+     font-size: 25px;
+     font-weight: 700;
+     position: relative;
+     top: 10px;
+     left: 10px;
+ }
+ p{
+     font-family: Comic sans MS;
+     position: relative;
+     left: 10px;
+ }
+ .one{
+     position: relative;
+     left: 50px;
+     top: 40px;
+ }
+ .two{
+     width: 300px;
+    height: 500px;
+    position: relative;
+    left: 600px;
+    top: -465px;
+ }
+ .three{
+     width: 300px;
+    height: 500px;
+    position: relative;
+    left: 1100px;
+    top: -970px;
+ }
+ .four{
+     width: 300px;
+    height: 500px;
+    position: relative;
+    left: 600px;
+    top: -950px;
+ }
+ .five{
+     width: 300px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+    top: -1447px;
+ }
+ .six{
+     width: 300px;
+    height: 500px;
+    position: relative;
+    left: 1100px;
+    top: -1950px;
+ }
+ .bottom{
+     background-color: #520B30;
+     color: white;
+     height: 80px;
+     width: 100%;
+     position: fixed;
+     top: 760px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ 

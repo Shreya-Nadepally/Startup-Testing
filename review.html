@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Reviews - Startup Testing Platform</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>What Our Users Say</h1>
+      <p>Discover how our platform helped users bring their startup ideas to life.</p>
+    </div>
+  </header>
+  <section id="filter-sort">
+    <div class="container">
+      <label for="rating-filter">Filter by Rating:</label>
+      <select id="rating-filter">
+        <option value="all">All Ratings</option>
+        <option value="5">5 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="2">2 Stars</option>
+        <option value="1">1 Star</option>
+      </select>
+
+      <label for="sort-order">Sort by:</label>
+      <select id="sort-order">
+        <option value="newest">Newest</option>
+        <option value="highest-rated">Highest Rated</option>
+      </select>
+    </div>
+  </section>
+  <section id="reviews">
+    <div class="container">
+    </div>
+  </section>
+  <section id="success-stories">
+    <div class="container">
+      <h2>Featured Success Stories</h2>
+      <div class="story">
+        <p>"With the help of this platform, we were able to launch our app within 6 months!"</p>
+        <p>- Sarah Lee, Developer</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="cta">
+    <div class="container">
+      <button class="cta-button">Leave Your Review</button>
+    </div>
+  </section>
+  <div id="review-modal" class="modal">
+    <div class="modal-content">
+      <h2>Leave Your Review</h2>
+      <form id="review-form">
+        <label for="user-name">Your Name:</label>
+        <input type="text" id="user-name" required>
+
+        <label for="user-rating">Rating:</label>
+        <select id="user-rating" required>
+          <option value="5">5 Stars</option>
+          <option value="4">4 Stars</option>
+          <option value="3">3 Stars</option>
+          <option value="2">2 Stars</option>
+          <option value="1">1 Star</option>
+        </select>
+
+        <label for="user-review">Your Review:</label>
+        <textarea id="user-review" required></textarea>
+
+        <button type="submit" id="submit-review">Submit</button>
+        <button type="button" id="close-modal">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Startup Testing Platform</p>
+    </div>
+  </footer>
+
+  <script src="review.js"></script>
+</body>
+</html>
+
+

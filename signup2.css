@@ -1,0 +1,133 @@
+body{
+    background-image:url("signupback.jpg");
+   width: 1000px;
+   height: 800px;
+}
+h1{
+    color: bisque;
+    width: 650px;
+    position: relative;
+    left:20px ;
+    top: 20px;
+}
+h3{
+    color:linen ;
+    position: relative;
+    top: 60px;
+    left: 20px;   
+}
+.sidebox {
+    border: 2px solid whitesmoke;
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    animation-name: identifier;
+    animation-duration: 5s; 
+   animation-iteration-count: infinite;
+}
+
+@keyframes identifier {
+    0%{
+        border-top: 4px solid whitesmoke;
+        border-right: transparent;
+        border-bottom: transparent;
+        border-left: transparent;
+    }
+    25% {
+        border-right: 4px solid whitesmoke;
+        border-bottom: transparent;
+        border-left: transparent;
+        border-top: 4px solid whitesmoke;
+    }
+    50%{
+        border-right: 4px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+        border-left: transparent;
+        border-top:4px solid whitesmoke;
+    }
+    75%{
+        border-right: 4px solid whitesmoke;
+        border-bottom: 4px solid whitesmoke;
+        border-left: 4px solid whitesmoke;
+        border-top: 4px solid whitesmoke;
+    }   
+}
+.box1{
+    background-image:url("smoke.png") ;
+    opacity:30%;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 700px;
+   bottom: 250px;
+   border: 2px solid black;
+   animation-name: box;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+.box2{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    left: 730px;
+   bottom: 700px;
+   
+}
+.box2 label{
+    font-family:Bookman, URW Bookman L, serif;
+    font-weight: bold;  
+    width: 100px; 
+}
+.box2 input{
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.box2 label.box3{
+    position: relative;
+    right: 280px;
+}
+.box2 input.box3{
+    position: relative;
+    right: 140px;
+}
+.box2 button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 30px;
+    position: relative;
+    left: 200px;
+}
+@keyframes box {
+    0%{
+        border-top: 4px solid black;
+        border-right: transparent;
+        border-bottom: transparent;
+        border-left: transparent;
+    }
+    25% {
+        border-right: 4px solid black;
+        border-bottom: transparent;
+        border-left: transparent;
+        border-top: 4px solid black ;
+        
+    }
+    50%{
+        border-right: transparent;
+        border-bottom: 4px solid black;
+        border-left: transparent;
+        border-top:transparent;
+    }
+    75%{
+        border-right: transparent;
+        border-bottom: 4px solid black;
+        border-left: 4px solid black;
+        border-top: transparent;
+    }   
+}
